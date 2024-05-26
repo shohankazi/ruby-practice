@@ -5,6 +5,7 @@ class Student
         @major = major
         @gpa = gpa
 end
+# Methods
     def has_honours 
         if @gpa >= 3.5
             return true    
